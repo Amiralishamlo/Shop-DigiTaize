@@ -50,9 +50,33 @@
 
     <div class="grid grid-cols-12 md:grid-rows-[55px_minmax(500px,_1fr)] md:gap-8">
       <!--SideBar-->
-      <div class="bg-white hidden md:block p-4 col-span-4 lg:col-span-3 row-span-2">sidebar</div>
+      <div x-data="{sort : 1, activeClass: 'text-slate-800 font-bold'}" class="bg-white hidden md:block p-4 col-span-4 lg:col-span-3 row-span-2">sidebar</div>
       <!-- Sort Sebg-white ction -->
-      <div class="bg-white  hidden md:block p-4  col-span-8 lg:col-span-9">sortsection</div>
+      <div class="hidden md:block col-span-8 lg:col-span-9">
+        <div x-data="{sort : 1, activeClass: 'text-slate-800 font-bold'}" class="bg-white px-4 flex items-center gap-x-4 text-gray-400 rounded-lg">
+          <div class="bg-orange-100 p-1 rounded-md flex justify-center items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 stroke-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4h13M3 8h9m-9 4h9m5-4v12m0 0l-4-4m4 4l4-4" />
+            </svg>
+          </div>
+          <button @click="sort = 1" :class=" sort ===1 ? activeClass : '' " class="py-4 relative">
+            <span>محبوب ترین</span>
+            <span x-show="sort === 1" class="w-2 h-2 bg-orange-500 rounded-full absolute top-1 left-0"></span>
+          </button>
+          <button @click="sort = 2" :class=" sort ===2 ? activeClass : '' " class="relative py-4">
+            <span x-show="sort === 2" class="w-2 h-2 bg-orange-500 rounded-full absolute top-1 left-0"></span>
+            <span>گران ترین</span>
+          </button>
+          <button @click="sort = 3" :class=" sort ===3 ? activeClass : '' " class="relative py-4">
+            <span x-show="sort === 3" class="w-2 h-2 bg-orange-500 rounded-full absolute top-1 left-0"></span>
+            <span>ارزان ترین</span>
+          </button>
+          <button @click="sort = 4" :class=" sort ===4 ? activeClass : '' " class="relative py-4">
+            <span x-show="sort === 4" class="w-2 h-2 bg-orange-500 rounded-full absolute top-1 left-0"></span>
+            <span>پرفروش ترین</span>
+          </button>
+        </div>
+      </div>
       <!--product bg-white Section-->
       <div class=" col-span-12 md:col-span-8 lg:col-span-9">
         <!--production mobile section-->
