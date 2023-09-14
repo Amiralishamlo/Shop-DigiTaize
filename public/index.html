@@ -14,7 +14,7 @@
       <div class="">
         <img src="../assets/images/logo-mobile.svg" alt="">
       </div>
-      <div class="text-lg font-bold text-slate-800">ساعت هوشمند</div>
+      <div class="text-lg font-bold text-slate-800">دیجی تایز</div>
       <div class="w-7 h-7 bg-white shadow-md rounded-md flex items-center justify-center">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-slate-800">
           <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
@@ -354,14 +354,14 @@
         <div
     x-data="{
      products:[
-     {id:1,title:'ساعت هوشمند اپل سری 7',price:'۱۲۳,۵۴۸,۹۰۷ تومان '},
-     {id:2,title:'ساعت هوشمند اپل سری 6',price:'۳۲۱,۵۴۸,۹۰۷ تومان '},
-     {id:3,title:'ساعت هوشمند اپل سری 7',price:'۲۳۱,۵۴۸,۹۰۷ تومان '},
-     {id:4,title:'ساعت هوشمند اپل سری 5',price:'۳۲۱,۵۴۸,۹۰۷ تومان '},
-     {id:5,title:'ساعت هوشمند اپل سری 4',price:'۱۲۳,۵۴۸,۹۰۷ تومان '},
-     {id:6,title:'ساعت هوشمند اپل سری 6',price:'۲۳۱,۵۴۸,۹۰۷ تومان '},
-     {id:7,title:'ساعت هوشمند اپل سری 5',price:'۳۱۲,۵۴۸,۹۰۷ تومان '},
-     {id:8,title:'ساعت هوشمند اپل سری 7',price:'۱۲۳,۵۴۸,۰۷۹ تومان '},
+     {id:1,title:'گوشی ایفون 13',price:'۱۲۳,۵۴۸,۹۰۷ تومان '},
+     {id:2,title:'گوشی ایفون 12',price:'۳۲۱,۵۴۸,۹۰۷ تومان '},
+     {id:3,title:'گوشی ایفون 12',price:'۲۳۱,۵۴۸,۹۰۷ تومان '},
+     {id:4,title:'گوشی ایفون 13',price:'۳۲۱,۵۴۸,۹۰۷ تومان '},
+     {id:5,title:'گوشی ایفون 11',price:'۱۲۳,۵۴۸,۹۰۷ تومان '},
+     {id:6,title:'گوشی ایفون 13',price:'۲۳۱,۵۴۸,۹۰۷ تومان '},
+     {id:7,title:'گوشی ایفون 12',price:'۳۱۲,۵۴۸,۹۰۷ تومان '},
+     {id:8,title:'گوشی ایفون 13',price:'۱۲۳,۵۴۸,۰۷۹ تومان '},
      ]
     }"
     class="grid gap-x-2 gap-y-8 grid-cols-2  lg:grid-cols-4 px-2 md:p-0 sm:gap-x-4 md:gap-x-6 md:gap-y-10"> 
@@ -369,7 +369,7 @@
     <template x-for="product in products" :key="product.id">
       <div class="bg-white rounded-xl p-2 shadow-md"> 
         <div class="mb-3 bg-gray-100 rounded-xl p-2">
-          <img src="../assets/images/apple-watch-7.png" alt="shop">
+          <img src="../assets/images/iphone-13.png" alt="shop">
         </div>
         <!--product .des-->
         <div class="flex items-center justify-between w-full mb-3 md:text-base">
@@ -402,7 +402,7 @@
     <div x-text="product.title" class="text-slate-800 text-xs font-bold mb-2 sm:text-base"></div>
     <div x-text="product.price" class="text-orange-600 font-medium text-center text-sm mb-3 sm:text-lg"> </div>
     <hr class=""/>
-    <button class="w-full font-bold text-orange-600 py-1 md:text-lg">مشاهده و سفارش</button>
+    <a href="SingelProduct.html"><button class="w-full font-bold text-orange-600 py-1 md:text-lg">مشاهده و سفارش</button></a>
   </div>
 </template>
 </div>
