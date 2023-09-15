@@ -1179,6 +1179,9 @@ video {
   .md\:mr-8{
     margin-right: 2rem;
   }
+  .md\:mt-20{
+    margin-top: 5rem;
+  }
   .md\:block{
     display: block;
   }
@@ -1339,6 +1342,9 @@ video {
   }
   .xl\:mb-0{
     margin-bottom: 0px;
+  }
+  .xl\:flex{
+    display: flex;
   }
   .xl\:h-24{
     height: 6rem;
