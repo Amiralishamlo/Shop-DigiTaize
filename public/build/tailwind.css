@@ -922,6 +922,10 @@ video {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
 }
+.py-16{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
 .py-2{
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -1289,6 +1293,9 @@ video {
   .lg\:col-span-9{
     grid-column: span 9 / span 9;
   }
+  .lg\:mb-0{
+    margin-bottom: 0px;
+  }
   .lg\:hidden{
     display: none;
   }
@@ -1313,6 +1320,10 @@ video {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
+  .lg\:py-20{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
   .lg\:text-2xl{
     font-size: 1.5rem;
     line-height: 2rem;
@@ -1329,6 +1340,9 @@ video {
   }
   .xl\:col-span-2{
     grid-column: span 2 / span 2;
+  }
+  .xl\:mb-0{
+    margin-bottom: 0px;
   }
   .xl\:h-24{
     height: 6rem;
