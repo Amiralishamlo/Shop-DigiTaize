@@ -1320,10 +1320,6 @@ video {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
-  .lg\:py-20{
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  }
   .lg\:text-2xl{
     font-size: 1.5rem;
     line-height: 2rem;
