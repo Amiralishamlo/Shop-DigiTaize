@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./build/tailwind.css" />
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
-<body class="bg-gray-100">
+<body class="bg-gray-100 h-screen">
   <!-- app bar--->
   <div class="md:hidden flex items-center justify-between mt-10 px-4 mb-6">
     <div class="bg-white rounded-md w-6 h-6 items-center">
@@ -55,7 +55,7 @@
   </nav>
 
     <!--cart content -->
-    <div class="flex items-star container mb-44 mx-auto 2xl:max-w-screen-2xl">
+    <div class="flex items-star container mb-4 mx-auto 2xl:max-w-screen-2xl">
       <!-- cart items -->
       <div
         class="flex flex-col gap-y-2 md:gap-y-4 px-4 flex-1"
@@ -128,17 +128,14 @@
         </div>
       </div>
     </div>
-
-
-
-  <!-- fixed add to cart button -->
-  <div class="md:hidden rounded-lg fixed flex items-center justify-between left-0 right-0 bottom-20 mx-2 w-auto bg-white shadow-[0_-4px_8px_0_rgba(0,0,0,0.1)] px-4 py-2 gap-x-4">
-    <a href="Cart.html"><button class="flex-auto py-3 text-white bg-orange-500 rounded-md">اضافه به سبد خرید</button></a>
-    <div class="text-slate-800 flex flex-col items-end">
-      <span class="font-bold">38,560,000</span>
-      <span class="text-gray-400 text-sm">تومان</span>
+    <!-- fixed add to cart button -->
+    <div class="md:hidden mb-28 rounded-lg mx-2 w-auto shadow-[0_-4px_8px_0_rgba(0,0,0,0.1)]">
+      <a href="Cart.html"><button class=" py-3 w-full text-white bg-orange-500 rounded-md">اضافه به سبد خرید</button></a>
     </div>
-  </div>
+
+
+
+
   <!--botton Navigation-->
   <div class="md:hidden shadow-[0_-4px_8px_0_rgba(0,0,0,0.1)] bg-white border border-t-2 fixed bottom-0 left-0 right-0 w-full rounded-tr-md rounded-tl-md px-2 flex items-center">
   <nav class="w-full">
