@@ -1,4 +1,4 @@
-# Shop-DigiTize
+# Shop-DigiTaize
 Building the initial store of DigiTime with Tawillcss and html/css and javascript.
 \
 Technologies for making this program :   Tawillcss and html\css and Javascript 
