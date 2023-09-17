@@ -3,10 +3,7 @@ Building the initial store of DigiTime with Tawillcss and html/css and javascrip
 \
 Technologies for making this program :   Tawillcss and html\css and Javascript 
 #
-\
-#
 # Desktop View
-#
 ![Shop-DigiTize](Web-View/img7.png)
 #
 ![Shop-DigiTize](Web-View/img9.png)
@@ -14,7 +11,6 @@ Technologies for making this program :   Tawillcss and html\css and Javascript
 ![Shop-DigiTize](Web-View/img8.png)
 #
 # Tablet  View
-#
 ![Shop-DigiTize](Web-View/img3.jpg)
 #
 ![Shop-DigiTize](Web-View/img5.jpg)
