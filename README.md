@@ -7,6 +7,7 @@ What is Tailwind css  : Tailwind CSS is an open source CSS framework. The main f
 \
 Site:https://tailwindcss.com/
 #
+![Shop-DigiTize](Web-View/items4.jpg)
 # Desktop View
 ![Shop-DigiTize](Web-View/img7.png)
 #
